@@ -1,0 +1,127 @@
+body {
+    font-family: 'Noto Serif', serif;
+    font-family: 'Roboto', sans-serif;
+}
+
+body h2 h3 h4 h5 p {
+    font-family: Roboto;
+}
+
+.navbar-toggler-icon.text-white {
+    background-image: url("data:image/svg+xml;charset=utf8,%3Csvg viewBox='0 0 30 30' xmlns='http://www.w3.org/2000/svg'%3E%3Cpath stroke='rgba(255, 255, 255, 1)' stroke-width='2' stroke-linecap='round' stroke-miterlimit='10' d='M4 7h22M4 15h22M4 23h22'/%3E%3C/svg%3E");
+  }
+
+.navbar {
+    background-color: black;
+}
+
+.nav-link {
+    color: #fff;
+}
+
+header .nav-link:hover {
+    color: #10c6d4
+}
+
+.navbar h1 {
+    color: #fff;
+}
+
+#cabecalho .nav .nav-link.active {
+    background-color: #fff;
+    color: #000;
+}
+
+#cabecalho .nav,
+.navbar-brand,
+.navbar-brand:hover {
+    color: #fff;
+}
+
+#cabecalho .nav,
+.navbar-brand,
+{
+color: #fff;
+font-family: 'Roboto';
+font-weight: 400;
+}
+
+.navbar-toggler {
+    background-color: #ffffff;
+}
+
+#carouselExample img {
+    width: 100vw;
+    object-fit: cover;
+}
+
+#carouselExample {
+    background-color: #000;
+}
+
+.section-title {
+    font-size: 35px;
+    font-family: 'Noto Serif', serif;
+    font-weight: 500;
+}
+
+.evento-img {
+    height: 200px;
+    object-fit: cover;
+}
+
+.textblack {
+    color: #000;
+}
+
+.nav-cardapio .nav-link.active {
+    background-color: #000;
+    color: #fff;
+}
+
+.nav-cardapio .nav-link:hover {
+    color: #000000;
+}
+
+.nav-cardapio .nav-link.active:hover {
+    color: #ffffff;
+}
+
+.icon li {
+    list-style: none;
+    display: inline;
+}
+
+.icon li a {
+    color: #000;
+    text-decoration: none;
+}
+
+#fale-conosco button {
+    background-color: #000000;
+    color: #fff;
+}
+
+#eventos,
+#fale-conosco {
+    background-color: #7bd8df54;
+}
+
+@media (max-width: 767px) {
+    .carousel-inner img {
+        width: 280px;
+    }
+    section #cardapio .row .col-md-3,
+    section #cardapio .row .col-sm-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
+
+@media (max-width: 375px) {
+    section #cardapio .row .col-md-3,
+    section #cardapio .row .col-sm-6 {
+        flex-basis: 50%;
+        max-width: 50%;
+    }
+}
